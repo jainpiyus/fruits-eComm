@@ -1,0 +1,103 @@
+<app-slider></app-slider>
+<div class="products-container">
+    <div class="title">
+        Juicy Fruits
+        <button mat-button mat-raised-button color="primary" class="viewAllBtn">
+            View All
+        </button>
+    </div>
+    <div class="body">
+        <ng-container *ngIf="!images">
+            <mat-card class="example-card"  *ngFor="let item of default">
+                <skltn-root class="example-card" duration="1000" [rectRadius]="10" flareWidth="50%" bgFill="#d8d5d1"
+                    flareFill="rgba(255,255,255, 0.5)">
+                    <!-- Card with Avatar -->
+                    <div class="skltn-card">
+                        <div skltn-bone class="skltn-card__avatar" type="circle"></div>
+                        <div class="skltn-card__body">
+                            <div skltn-bone class="skltn-card__title"></div>
+                            <div skltn-bone class="skltn-card__line"></div>
+                            <div skltn-bone class="skltn-card__line"></div>
+                        </div>
+                    </div>
+                </skltn-root>
+            </mat-card>
+        </ng-container>
+
+        <mat-card class="example-card" *ngFor="let item of images" (click)="productHome(item.id)">
+            <div class="fab">
+                <mat-icon fontSet="material-icons-outlined">favorite_border</mat-icon>
+            </div>
+            <owl-carousel [options]="carouselOptions" [items]="item.image"
+                [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                <div class="item" *ngFor="let image of item.image; let i = index">
+                    <div class="thumbnail-image">
+                        <img [src]="image" class="productImg" mat-card-image />
+                    </div>
+                </div>
+            </owl-carousel>
+            <mat-card-content>
+                <h3 style="margin: 0; font-weight: normal;">{{item.text}}</h3>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="font-weight: bold; font-size: 14px;">$120.00</span>
+                    <mat-icon fontSet="material-icons-outlined">shopping_cart</mat-icon>
+                </div>
+            </mat-card-content>
+        </mat-card>
+
+    </div>
+</div>
+<div class="mobile-view">
+    <div class="title">
+        New Products Arrival
+        <button mat-button mat-raised-button color="primary" class="viewAllBtn">
+            View All
+        </button>
+    </div>
+    <div class="mobile-card" *ngFor="let item of images" (click)="productHome(item.id)">
+        <div class="header">
+            <img width="150px" height="150px" src="{{item.image}}" alt="Photo of a Shiba Inu">
+        </div>
+        <div class="footer">
+            {{item.text}}
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="search-box">
+    <div class="icon">
+        <mat-icon class="leftIcon">star</mat-icon>
+    </div>
+    <div class="search-text">
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+    </div>
+    <div class="close">
+        <mat-icon style="padding:7px;">close</mat-icon>
+    </div>
+</div> -->
+<!-- 
+<div class="search-box">
+    <div class="search-text">
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+        <span>Skill tests are no longer available on Upwork. Learn more.</span>
+
+    </div>
+    <div class="close">
+        <mat-icon style="padding:7px;">close</mat-icon>
+    </div>
+</div> -->
