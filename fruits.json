@@ -1,0 +1,147 @@
+{
+  "banner": [
+    {
+      "text": "Festive Deer",
+      "image": "http://www.satoyu.com/media/catalog/category/satoyu-contact-banner.png"
+    },
+    {
+      "text": "Festive Deer",
+      "image": "http://www.premierfruitscatering.com/wp-content/uploads/2016/01/fresh-fruit-banner-min.jpg"
+    },
+    {
+      "text": "Morning Greens",
+      "image": "https://bearsley.co.nz/wp-content/uploads/banner-fresh-produce1-1500x430.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "text": "Apple",
+      "image": [
+        "https://www.organichaive.com.ng/wp-content/uploads/2017/01/apple_red-350x350.jpg",
+        "https://5.imimg.com/data5/LM/DU/MY-22954806/apple-fruit-500x500.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Orange",
+      "image": [
+        "https://previews.123rf.com/images/atoss/atoss1803/atoss180300084/97666503-orange-fruits-with-leaf.jpg",
+        "https://i.pinimg.com/originals/50/91/3e/50913eeb04768a5b1fa9985c16704d96.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Banana",
+      "image": [
+        "https://cdn.shopify.com/s/files/1/2331/3573/products/banana.jpg?v=1505655050"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Watermelon",
+      "image": [
+        "https://images-na.ssl-images-amazon.com/images/I/71ogcdh7YjL._SX425_.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Pineapple",
+      "image": [
+        "https://keelings.ie/wp-content/uploads/2016/04/pineapple-1.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Strawberries",
+      "image": [
+        "https://previews.123rf.com/images/photomaru/photomaru1610/photomaru161000011/65097110-isolated-strawberries-one-and-a-half-strawberry-fruits-isolated-on-white-background.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Mengo",
+      "image": [
+        "https://5.imimg.com/data5/YD/PM/MY-40752733/fresh-mango-500x500.jpg",
+        "https://cdn.shopify.com/s/files/1/1891/6405/products/shop-online-from-sri-lanka-fruits-yellow-mango-fresh-food-in-dubai-and-abu-dhabi-1129587179560_480x480.jpg?v=1536789602"
+      ]
+    }
+  ],
+  "simillarProducts": [
+    {
+      "id": 1,
+      "text": "Apple",
+      "image": [
+        "https://www.organichaive.com.ng/wp-content/uploads/2017/01/apple_red-350x350.jpg",
+        "https://5.imimg.com/data5/LM/DU/MY-22954806/apple-fruit-500x500.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Orange",
+      "image": [
+        "https://previews.123rf.com/images/atoss/atoss1803/atoss180300084/97666503-orange-fruits-with-leaf.jpg",
+        "https://i.pinimg.com/originals/50/91/3e/50913eeb04768a5b1fa9985c16704d96.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Banana",
+      "image": [
+        "https://cdn.shopify.com/s/files/1/2331/3573/products/banana.jpg?v=1505655050"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Watermelon",
+      "image": [
+        "https://images-na.ssl-images-amazon.com/images/I/71ogcdh7YjL._SX425_.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Pineapple",
+      "image": [
+        "https://keelings.ie/wp-content/uploads/2016/04/pineapple-1.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Strawberries",
+      "image": [
+        "https://previews.123rf.com/images/photomaru/photomaru1610/photomaru161000011/65097110-isolated-strawberries-one-and-a-half-strawberry-fruits-isolated-on-white-background.jpg"
+      ]
+    }
+  ],
+  "cart": [
+  
+    {
+      "id": 3,
+      "text": "Banana",
+      "image": [
+        "https://cdn.shopify.com/s/files/1/2331/3573/products/banana.jpg?v=1505655050"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Watermelon",
+      "image": [
+        "https://images-na.ssl-images-amazon.com/images/I/71ogcdh7YjL._SX425_.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Pineapple",
+      "image": [
+        "https://keelings.ie/wp-content/uploads/2016/04/pineapple-1.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Strawberries",
+      "image": [
+        "https://previews.123rf.com/images/photomaru/photomaru1610/photomaru161000011/65097110-isolated-strawberries-one-and-a-half-strawberry-fruits-isolated-on-white-background.jpg"
+      ]
+    }
+  ]
+}
