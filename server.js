@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/dist/e-comm'));
 
 app.get('/*', function (req, res) {
 
-    res.sendFile(path.join(__dirname, '/dist/e-comm/index.html'));
+    res.sendFile(path.join(__dirname + './front-end/dist/e-comm/index.html'));
 });
 
 // Start the app by listening on the default Heroku port
