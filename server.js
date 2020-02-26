@@ -1,3 +1,4 @@
+console.log("inside server.js file");
 //Install express server
 const express = require('express');
 const path = require('path');
